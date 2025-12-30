@@ -1,5 +1,9 @@
 # Contextual Evidence & Explanations (CEE)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Build Status](https://github.com/structural-explainability/spec-cee/actions/workflows/ci.yml/badge.svg)
+[![Check Links](https://github.com/structural-explainability/spec-cee/actions/workflows/links.yml/badge.svg)](https://github.com/structural-explainability/spec-cee/actions/workflows/links.yml)
+
 > Authoritative specification of Contextual Evidence & Explanations (CEE).
 
 ## Overview
