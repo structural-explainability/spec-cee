@@ -37,45 +37,54 @@ Identifiers are:
 - suitable for direct mapping to Lean theorem names
 
 Identifiers MUST NOT be renamed or repurposed.
-New identifiers MAY be added only in a new major version of CEE.
+New identifiers MAY be added only in a new major version of this document.
+
+## Identifier Notes
+
+Each identifier MUST be followed by exactly one note.
+
+- The note MUST be expressed as a single bullet.
+- The bullet text MAY wrap across lines.
+- No additional bullets, sublists, or structural markers are permitted.
+- Notes are explanatory only and do not introduce additional requirements.
 
 ## Canonical Identifier List (Alphabetical, with Notes)
 
 CEE.ATTESTATION
 
-Defines records asserting responsibility for an explanation under a given context.
+- Defines records asserting responsibility for an explanation under a given context.
 
 CEE.CONFORMANCE.AE.EP.REQUIRED
 
-States that CEE operates over Accountable Entities and Evolution Protocol artifacts.
+- States that CEE operates over Accountable Entities and Evolution Protocol artifacts.
 
 CEE.CONFORMANCE.SE.REQUIRED
 
-States that CEE conforms to the Structural Explainability specification.
+- States that CEE conforms to the Structural Explainability specification.
 
 CEE.CONTEXT.TAG
 
-Defines identifiers for interpretive contexts applied to explanations.
+- Defines identifiers for interpretive contexts applied to explanations.
 
 CEE.DEFINITION.CORE
 
-Defines CEE as a framework for attaching interpretive content to substrate history.
+- Defines CEE as a framework for attaching interpretive content to substrate history.
 
 CEE.EXPLANATION.RECORD
 
-Defines records associating explanatory content with substrate references.
+- Defines records associating explanatory content with substrate references.
 
 CEE.MULTIPLICITY
 
-Requires support for multiple, potentially conflicting interpretations.
+- Requires support for multiple, potentially conflicting interpretations.
 
 CEE.PROVENANCE
 
-Defines records describing how explanatory content was produced.
+- Defines records describing how explanatory content was produced.
 
 CEE.SCOPE.EXCLUSIONS
 
-Defines what CEE explicitly does not specify.
+- Defines what CEE explicitly does not specify.
 
 ## Cross-Artifact Consistency Rule
 
@@ -83,7 +92,7 @@ Each identifier in this list MUST appear:
 
 - exactly once in SPEC.md
 - exactly once in CONFORMANCE.md
-- exactly once as a field in the Lean ConformanceEvidence structure
+- exactly once as a field in the Lean `ConformanceEvidence` structure
 - exactly once in the Lean requirements list
 
 Alphabetical order SHOULD be preserved across all artifacts.

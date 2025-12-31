@@ -41,7 +41,7 @@ excludes = [
 [citation]
 cff = "CITATION.cff"
 preferred = "spec"
-bib_hint = "spec-cee-2025"
+bib_hint = "case2025-spec-cee"
 
 [traceability]
 identifier_map = "none"
