@@ -13,12 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.9.0] – 2025-12-30
+## [0.9.0] – 2025-12-31
 
 ### Added
 
-- Initial normative specification of Contextual Evidence & Explanations.
-- Interpretive overlay model for explanation, attestation, and provenance.
+- Initial normative specification.
 - Stable requirement identifiers.
 - Conformance checklist.
 - Repository structure, citation metadata, and licensing.
