@@ -1,7 +1,7 @@
 # Contextual Evidence & Explanations (CEE)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)
-![Build Status](https://github.com/structural-explainability/spec-cee/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/structural-explainability/spec-cee/actions/workflows/ci-hygiene.yml/badge.svg?branch=main)
 [![Check Links](https://github.com/structural-explainability/spec-cee/actions/workflows/links.yml/badge.svg)](https://github.com/structural-explainability/spec-cee/actions/workflows/links.yml)
 
 > Authoritative specification of Contextual Evidence & Explanations (CEE).
@@ -99,3 +99,24 @@ This separation ensures that:
 - responsibility and method are explicit without collapsing into truth or authority.
 
 Explanation is enabled by the substrate but never embedded within it.
+
+## Developer (running pre-commit)
+
+Steps to run pre-commit locally. Install `uv`.
+
+Initialize once:
+
+```shell
+uv self update
+uvx pre-commit install
+uvx pre-commit run --all-files
+```
+
+Save progress as needed:
+
+```shell
+git add -A
+# If pre-commit makes changes, re-run `git add -A` before committing.
+git commit -m "update"
+git push -u origin main
+```
