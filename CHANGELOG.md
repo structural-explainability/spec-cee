@@ -1,5 +1,7 @@
 # Changelog
 
+<!-- markdownlint-disable MD024 -->
+
 All notable changes to this specification are documented in this file.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
