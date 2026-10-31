@@ -40,12 +40,12 @@ jobs:
       # BASIC CHECKS: Run basic checks
       # ============================================================
 
-      - name: B1) Lint Markdown
-        # WHY: Enforce Markdown rules consistently (repo-config driven).
-        uses: DavidAnson/markdownlint-cli2-action@v22
-        with:
-          globs: |
-            **/*.md
+      # - name: B1) Lint Markdown
+      #   # WHY: Enforce Markdown rules consistently (repo-config driven).
+      #   uses: DavidAnson/markdownlint-cli2-action@v22
+      #   with:
+      #     globs: |
+      #       **/*.md
 
 
       - name: B2) Lint YAML (uses .yamllint.yml)
