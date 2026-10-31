@@ -11,7 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Changed
+### Deprecated
+
+- Repository retired October 2026 and archived.
+- Its specifications, classifications, and
+  conformance requirements are no longer authoritative.
+  No replacement specification is intended.
 
 ---
 

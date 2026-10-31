@@ -1,5 +1,8 @@
 # Contextual Evidence & Explanations Identifiers (CEE)
 
+> **Archived.**
+> **Retired and no longer authoritative. See README.md.**
+
 This document defines the stable requirement identifiers used by the
 Contextual Evidence & Explanations (CEE) specification.
 
